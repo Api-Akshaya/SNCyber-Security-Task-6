@@ -69,7 +69,7 @@ B. Output Encoding (Primary Mitigation)
 Encode output before rendering to the response page.
 
 Example in PHP:
-```php
+
 echo htmlspecialchars($user_input, ENT_QUOTES, 'UTF-8');
 
 C. Avoid inline scripts
